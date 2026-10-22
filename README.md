@@ -3,147 +3,147 @@
 
 # 🌍 Inclusive Solutions
 
-### Building safer, healthier, and more inclusive workplaces.
+### Construyendo empresas más seguras, saludables e inclusivas.
 
-**Integrated solutions for corporate compliance, employee well-being, healthcare training, and disability inclusion.**
+**Soluciones integrales para el cumplimiento empresarial, el bienestar laboral, la capacitación en salud y la inclusión de personas con discapacidad.**
 
-[About Us](#-about-us) • [Our Pillars](#-our-three-pillars) • [Our Products](#-innovative-educational-products) • [Our Mission](#-our-mission)
+[Sobre Nosotros](#-sobre-nosotros) • [Nuestros Pilares](#-nuestros-tres-pilares) • [Productos Innovadores](#-productos-educativos-innovadores) • [Nuestra Misión](#-nuestra-misión)
 
 </div>
 
 ---
 
-## 📌 About Us
+## 📌 Sobre Nosotros
 
-We are a company dedicated to providing **comprehensive solutions for organizations**, helping businesses manage their compliance requirements, improve employee well-being, strengthen health and safety practices, and build more inclusive environments.
+Somos una empresa dedicada a ofrecer **soluciones integrales para organizaciones**, ayudándolas a gestionar sus obligaciones empresariales, fortalecer el bienestar de sus colaboradores, promover la seguridad laboral y construir entornos más accesibles e inclusivos.
 
-Through professional consulting, educational programs, training services, and innovative learning products, we aim to make workplaces safer, more responsible, and accessible to everyone.
+A través de servicios de asesoría, programas de capacitación, formación profesional y productos educativos innovadores, buscamos generar un impacto positivo tanto en las empresas como en la sociedad.
 
-Our approach combines business solutions with social impact, creating value for both organizations and the communities they serve.
+Nuestra propuesta combina soluciones empresariales con responsabilidad social, creando oportunidades para mejorar el funcionamiento de las organizaciones y la calidad de vida de las personas.
 
-## 🎯 Our Three Pillars
+## 🎯 Nuestros Tres Pilares
 
-### 1. 🏢 Corporate Compliance & Employee Benefits
+### 1. 🏢 Cumplimiento Empresarial y Beneficios para Empleados
 
-We help organizations understand, manage, and fulfill their applicable annual requirements and employee-related responsibilities.
+Ayudamos a las organizaciones a comprender, gestionar y cumplir con sus obligaciones y requisitos aplicables, de acuerdo con la legislación y las necesidades de cada país.
 
-Our services may include:
+Nuestros servicios pueden incluir:
 
-- Guidance on workplace regulations and compliance requirements.
-- Assistance with employee health insurance and benefits administration.
-- Support with insurance processes and documentation.
-- Employee training programs and compliance education.
-- Guidance on workplace policies and organizational responsibilities.
+- Orientación sobre normativas y requisitos empresariales.
+- Asistencia en la gestión de seguros médicos y beneficios para empleados.
+- Apoyo en trámites, documentación y procesos relacionados con seguros.
+- Programas de capacitación para el personal.
+- Orientación sobre políticas internas y responsabilidades organizacionales.
 
-Our goal is to simplify complex processes and help businesses operate more efficiently and responsibly.
+**Nuestro objetivo:** simplificar los procesos administrativos y ayudar a las empresas a operar de manera más eficiente, organizada y responsable.
 
-### 2. 🩺 Healthcare, Health & Safety Training
+### 2. 🩺 Salud, Seguridad y Bienestar
 
-We provide educational and training solutions designed to promote employee health, safety, and well-being.
+Ofrecemos soluciones educativas y programas de formación destinados a fortalecer la salud, la seguridad y el bienestar de los trabajadores.
 
-Our services may include:
+Nuestros servicios pueden incluir:
 
-- First aid training.
-- Workplace health and safety education.
-- Mental health awareness and employee well-being programs.
-- Health-related workshops and preventive education.
-- Training designed to help organizations respond to workplace emergencies.
+- Capacitaciones en primeros auxilios.
+- Formación en salud y seguridad en el trabajo.
+- Programas de concientización sobre salud mental.
+- Talleres de prevención y promoción de la salud.
+- Preparación para responder ante emergencias en el entorno laboral.
 
-We aim to equip employees and organizations with practical knowledge that can make a meaningful difference in everyday situations.
+**Nuestro objetivo:** proporcionar conocimientos y herramientas prácticas que permitan a las personas actuar de manera responsable y segura en diferentes situaciones.
 
-### 3. ♿ Disability Inclusion & Social Awareness
+### 3. ♿ Inclusión de Personas con Discapacidad
 
-We work to create a society in which people with disabilities are treated with dignity, respect, and equal opportunities.
+Promovemos una sociedad en la que todas las personas sean tratadas con dignidad, respeto y equidad, independientemente de sus capacidades o discapacidades.
 
-We help organizations develop more inclusive cultures through:
+Ayudamos a las organizaciones a construir entornos más inclusivos mediante:
 
-- Disability awareness workshops.
-- Inclusive workplace training.
-- Education about accessibility and reasonable accommodations.
-- Guidance on respectful communication and interaction.
-- Educational resources that challenge stereotypes and misconceptions.
+- Capacitaciones sobre discapacidad e inclusión.
+- Formación sobre comunicación y trato respetuoso.
+- Educación sobre accesibilidad y adaptaciones razonables.
+- Sensibilización para combatir prejuicios y estereotipos.
+- Orientación para fomentar la igualdad de oportunidades en el trabajo.
 
-We believe that disability does not define a person's worth, potential, or ability to contribute to society. By promoting understanding and accessibility, we seek to help individuals reach their full potential.
+Creemos que una discapacidad no define el valor, el potencial ni las capacidades de una persona. Mediante la educación y la eliminación de barreras, buscamos que cada individuo pueda desarrollar sus habilidades y participar plenamente en la sociedad.
 
-## 🧸 Innovative Educational Products
+## 🧸 Productos Educativos Innovadores
 
-### Disability Awareness Dolls
+### Muñecos Educativos sobre Discapacidad
 
-One of our innovative ideas is a collection of educational dolls representing people with different disabilities.
+Uno de nuestros proyectos consiste en desarrollar una colección de muñecos educativos que representen a personas con diferentes discapacidades.
 
-Each doll would have its own name, personality, and fictional life story, accompanied by an educational card explaining:
+Cada muñeco tendrá su propio nombre, personalidad e historia ficticia, acompañados de una tarjeta educativa que explique:
 
-- What the represented disability is.
-- The challenges a person with that disability may experience.
-- Common misconceptions and stereotypes.
-- Abilities and possibilities that are often overlooked.
-- Ways to promote accessibility, respect, and inclusion.
+- En qué consiste la discapacidad representada.
+- Qué dificultades puede experimentar una persona en su vida cotidiana.
+- Qué prejuicios y conceptos erróneos existen sobre esa discapacidad.
+- Qué capacidades y posibilidades suelen pasar desapercibidas.
+- Cómo podemos promover el respeto, la accesibilidad y la inclusión.
 
-These dolls are intended to help children, families, schools, and organizations learn about disability through empathy, storytelling, and interactive education.
+Estos muñecos estarán diseñados para ayudar a niños, familias, instituciones educativas y organizaciones a aprender sobre la discapacidad mediante la empatía, las historias y la interacción.
 
-### 🎮 Interactive Care Experience
+### 🎮 Experiencia Interactiva de Cuidado
 
-We also envision an interactive experience inspired by virtual pet games, such as Tamagotchi.
+También proponemos desarrollar una experiencia interactiva inspirada en los juegos de mascotas virtuales, como Tamagotchi.
 
-Users would learn how to care for and interact with a character while discovering its preferences, needs, environment, and accessibility requirements.
+Los usuarios podrán interactuar con un personaje y aprender sobre sus preferencias, necesidades, entorno y requerimientos de accesibilidad.
 
-The purpose is not to imitate or trivialize disability, but to encourage empathy, responsible interaction, and a better understanding of the different experiences people may have.
+La experiencia buscará fomentar la empatía, el respeto y la comprensión de distintas realidades, evitando presentar la discapacidad como un juego trivial o reducir a las personas a sus limitaciones.
 
-**Our vision:** Turn education into an engaging experience that encourages inclusion from an early age.
+**Nuestra visión:** transformar la educación inclusiva en una experiencia interactiva, accesible y significativa desde edades tempranas.
 
-## 💡 Our Mission
+## 🎯 Nuestra Misión
 
-To help organizations meet their responsibilities while promoting health, well-being, accessibility, and equal opportunities through professional services and innovative educational solutions.
+Ayudar a las organizaciones a gestionar sus responsabilidades empresariales y promover la salud, el bienestar, la accesibilidad y la igualdad de oportunidades mediante servicios profesionales y soluciones educativas innovadoras.
 
-## 🔭 Our Vision
+## 🔭 Nuestra Visión
 
-To become a trusted provider of integrated corporate and social-impact solutions, contributing to a world where organizations are more responsible, workplaces are safer, and people with disabilities have greater opportunities to participate fully in society.
+Convertirnos en una empresa referente en soluciones empresariales integrales e impacto social, contribuyendo a un mundo donde las organizaciones sean más responsables, los espacios laborales más seguros y las personas con discapacidad cuenten con mayores oportunidades para participar plenamente en la sociedad.
 
-## 💎 Our Core Values
+## 💎 Nuestros Valores
 
-- **Inclusion:** Everyone deserves dignity, respect, and opportunities.
-- **Responsibility:** We promote responsible business practices and informed decision-making.
-- **Empathy:** We encourage understanding through education and meaningful interaction.
-- **Innovation:** We develop creative solutions to real-world challenges.
-- **Accessibility:** We strive to make environments, information, and opportunities more accessible.
-- **Integrity:** We value transparency, professionalism, and ethical conduct.
+- **Inclusión:** todas las personas merecen respeto, dignidad y oportunidades.
+- **Responsabilidad:** promovemos prácticas empresariales responsables y decisiones informadas.
+- **Empatía:** fomentamos la comprensión mediante la educación y la interacción.
+- **Innovación:** desarrollamos soluciones creativas para problemas reales.
+- **Accesibilidad:** buscamos reducir las barreras que limitan la participación de las personas.
+- **Integridad:** actuamos con transparencia, profesionalismo y ética.
+- **Compromiso social:** trabajamos para generar un impacto positivo y sostenible.
 
-## 🤝 Who We Serve
+## 🤝 ¿A Quiénes Nos Dirigimos?
 
-Our potential clients and beneficiaries include:
+Nuestros potenciales clientes y beneficiarios incluyen:
 
-- Companies and small businesses.
-- Human Resources departments.
-- Schools and educational institutions.
-- Healthcare and occupational safety organizations.
-- Employees and workplace teams.
-- Families, children, and communities.
-- Organizations committed to disability inclusion.
+- Empresas y pequeñas organizaciones.
+- Departamentos de Recursos Humanos.
+- Instituciones educativas.
+- Organizaciones de salud y seguridad ocupacional.
+- Equipos de trabajo y colaboradores.
+- Familias, niños y comunidades.
+- Instituciones comprometidas con la inclusión y la accesibilidad.
 
-## 🚀 Our Approach
+## 🚀 Nuestro Modelo de Soluciones
 
-We combine three complementary areas of work:
-
-| Area | Main objective |
+| Área | Objetivo principal |
 |---|---|
-| Corporate Solutions | Support organizational compliance and employee benefits management. |
-| Health & Safety | Deliver practical education and workplace training. |
-| Disability Inclusion | Promote accessibility, awareness, and equal opportunities. |
+| Soluciones empresariales | Apoyar la gestión del cumplimiento normativo y los beneficios para empleados. |
+| Salud y seguridad | Desarrollar capacitaciones y promover el bienestar laboral. |
+| Inclusión social | Fomentar la accesibilidad, la sensibilización y la igualdad de oportunidades. |
+| Productos educativos | Crear herramientas innovadoras para enseñar empatía e inclusión. |
 
-Together, these areas form an integrated approach to improving both organizational performance and social well-being.
+Estas áreas se complementan para ofrecer una propuesta integral que combina eficiencia empresarial, formación profesional y responsabilidad social.
 
-## 🌱 Our Commitment
+## 🌱 Nuestro Compromiso
 
-We believe that business success and social responsibility can work together.
+Creemos que el éxito empresarial y la responsabilidad social pueden crecer juntos.
 
-By combining professional services with inclusive education, we aim to help organizations become more effective while contributing to a society that recognizes the abilities, rights, and potential of every person.
+Por eso, buscamos ayudar a las organizaciones a mejorar sus procesos mientras contribuimos a construir una sociedad más consciente, accesible e inclusiva, que reconozca los derechos, las capacidades y el potencial de cada persona.
 
 ---
 
 <div align="center">
 
-**Compliance. Well-being. Inclusion.**
+### Cumplimiento. Bienestar. Inclusión.
 
-*Building better organizations and a more inclusive future.*
+**Construyendo mejores organizaciones y un futuro más inclusivo.**
 
 </div>
