@@ -1,0 +1,31 @@
+# Secretos — NUNCA subir
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+service-account*.json
+
+# Datos de clientes — NUNCA subir (van en Supabase Storage o Drive privado)
+datos_clientes/
+clientes/
+*.xlsx
+*.csv
+!supabase/**/*.csv
+
+# Supabase local
+supabase/.branches
+supabase/.temp
+supabase/.env
+
+# Node / Python
+node_modules/
+__pycache__/
+.venv/
+venv/
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

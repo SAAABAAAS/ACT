@@ -1,149 +1,110 @@
-
 <div align="center">
 
-# 🌍 Inclusive Solutions
+# 🌍 ACT — Inclusive Solutions
 
-### Construyendo empresas más seguras, saludables e inclusivas.
+**Seguridad y Salud en el Trabajo (SST), bienestar laboral e inclusión de personas con discapacidad para empresas en Ecuador.**
 
-**Soluciones integrales para el cumplimiento empresarial, el bienestar laboral, la capacitación en salud y la inclusión de personas con discapacidad.**
-
-[Sobre Nosotros](#-sobre-nosotros) • [Nuestros Pilares](#-nuestros-tres-pilares) • [Productos Innovadores](#-productos-educativos-innovadores) • [Nuestra Misión](#-nuestra-misión)
+`Estado: pre-MVP / validación` · `Mercado inicial: Ecuador` · `Equipo: 5 cofundadores`
 
 </div>
 
 ---
 
-## 📌 Sobre Nosotros
+## 📌 Qué es esto
 
-Somos una empresa dedicada a ofrecer **soluciones integrales para organizaciones**, ayudándolas a gestionar sus obligaciones empresariales, fortalecer el bienestar de sus colaboradores, promover la seguridad laboral y construir entornos más accesibles e inclusivos.
+Este repositorio contiene **el producto tecnológico de ACT**: la base de datos y el agente de IA **"Inclusive Solutions SSO Intelligence"**, que ayuda a las empresas a saber qué obligaciones de SST cumplen, cuáles no y qué hacer, **siempre con revisión humana y citando normativa verificada**.
 
-A través de servicios de asesoría, programas de capacitación, formación profesional y productos educativos innovadores, buscamos generar un impacto positivo tanto en las empresas como en la sociedad.
+La visión completa de la empresa (pilares, productos educativos, valores) está en [`docs/vision.md`](docs/vision.md).
 
-Nuestra propuesta combina soluciones empresariales con responsabilidad social, creando oportunidades para mejorar el funcionamiento de las organizaciones y la calidad de vida de las personas.
+## 🎯 Foco actual (próximos 2–3 meses)
 
-## 🎯 Nuestros Tres Pilares
+Ser una empresa que **cobra**. Por eso el producto arranca con **una sola cosa**:
 
-### 1. 🏢 Cumplimiento Empresarial y Beneficios para Empleados
+> **Diagnóstico de cumplimiento SST** para pequeñas empresas: revisamos qué exige la norma según su tamaño, marcamos qué cumple, qué no, y entregamos un plan de acción.
 
-Ayudamos a las organizaciones a comprender, gestionar y cumplir con sus obligaciones y requisitos aplicables, de acuerdo con la legislación y las necesidades de cada país.
+Todo lo demás (muñecos educativos, experiencia interactiva, seguros) espera hasta validar esto. Detalle en [`docs/producto-mvp.md`](docs/producto-mvp.md).
 
-Nuestros servicios pueden incluir:
+## 🗂️ Estructura del repositorio
 
-- Orientación sobre normativas y requisitos empresariales.
-- Asistencia en la gestión de seguros médicos y beneficios para empleados.
-- Apoyo en trámites, documentación y procesos relacionados con seguros.
-- Programas de capacitación para el personal.
-- Orientación sobre políticas internas y responsabilidades organizacionales.
+```
+ACT/
+├── README.md                    ← estás aquí
+├── docs/
+│   ├── vision.md                ← visión, pilares y valores de ACT
+│   ├── producto-mvp.md          ← problema, hipótesis, alcance del MVP y métricas
+│   ├── modelo-datos.md          ← explicación de la base de datos (con diagrama)
+│   ├── guia-github.md           ← cómo trabajamos con GitHub (léanla todos)
+│   ├── normativa/README.md      ← cómo se agrega y verifica normativa
+│   └── estrategia/              ← Mapa de Gaps y documentos de la aceleradora
+├── supabase/
+│   ├── migrations/              ← esquema de la base de datos, en orden
+│   ├── seed.sql                 ← datos de PRUEBA (todo ficticio)
+│   └── pruebas_locales/         ← pruebas de seguridad del esquema
+├── agent/
+│   └── prompts/                 ← instrucciones del agente SSO Intelligence (versionadas)
+├── .env.example                 ← variables de entorno, sin secretos
+└── .gitignore
+```
 
-**Nuestro objetivo:** simplificar los procesos administrativos y ayudar a las empresas a operar de manera más eficiente, organizada y responsable.
+## 🧱 Tecnología
 
-### 2. 🩺 Salud, Seguridad y Bienestar
+| Pieza | Herramienta | Por qué |
+|---|---|---|
+| Base de datos + login + archivos | [Supabase](https://supabase.com) (PostgreSQL) | Plan gratuito, login y almacenamiento incluidos, seguridad por filas (RLS) |
+| Agente de IA | API de un modelo de lenguaje (ej. Claude) | Responde solo con normativa de la base, nunca de memoria |
+| Interfaz (siguiente paso) | Por decidir | Primero validar con clientes usando el diagnóstico "a mano" |
 
-Ofrecemos soluciones educativas y programas de formación destinados a fortalecer la salud, la seguridad y el bienestar de los trabajadores.
+## 🚀 Cómo levantar la base de datos
 
-Nuestros servicios pueden incluir:
+**Opción A — En la nube (la más fácil):**
+1. Crear un proyecto gratis en [supabase.com](https://supabase.com).
+2. Ir a **SQL Editor** y ejecutar, en este orden, los archivos de `supabase/migrations/`.
+3. (Opcional) Ejecutar `supabase/seed.sql` para cargar la empresa ficticia de demostración.
+4. Registrarse en la app y nombrar al primer administrador desde el SQL Editor:
+   ```sql
+   update public.perfiles set es_equipo_act = true where email = 'tu-correo@ejemplo.com';
+   ```
 
-- Capacitaciones en primeros auxilios.
-- Formación en salud y seguridad en el trabajo.
-- Programas de concientización sobre salud mental.
-- Talleres de prevención y promoción de la salud.
-- Preparación para responder ante emergencias en el entorno laboral.
+**Opción B — Local (para quien programa):**
+```bash
+npm install -g supabase       # o: brew install supabase/tap/supabase
+supabase start                # necesita Docker
+supabase db reset             # aplica migraciones + seed.sql
+```
 
-**Nuestro objetivo:** proporcionar conocimientos y herramientas prácticas que permitan a las personas actuar de manera responsable y segura en diferentes situaciones.
+Copiar `.env.example` a `.env` y completar las llaves. **El archivo `.env` nunca se sube a GitHub.**
 
-### 3. ♿ Inclusión de Personas con Discapacidad
+## 🔐 Reglas que no se negocian
 
-Promovemos una sociedad en la que todas las personas sean tratadas con dignidad, respeto y equidad, independientemente de sus capacidades o discapacidades.
+1. **Nada de datos reales de clientes en el repositorio.** Ni nombres, ni cédulas, ni RUC, ni documentos. Este repo es **público**.
+2. **El agente no inventa normativa.** Solo cita fuentes que una persona verificó contra el texto oficial.
+3. **Ninguna respuesta de IA llega a un cliente sin revisión humana.** La base de datos lo impide.
+4. **Datos de salud y discapacidad**: van en tablas aparte, con acceso restringido y consentimiento del trabajador (Ley Orgánica de Protección de Datos Personales). Aún no están en el esquema.
+5. **Nada se sube directo a `main`**: todo cambio entra por Pull Request (ver [`docs/guia-github.md`](docs/guia-github.md)).
 
-Ayudamos a las organizaciones a construir entornos más inclusivos mediante:
+## 👥 Equipo
 
-- Capacitaciones sobre discapacidad e inclusión.
-- Formación sobre comunicación y trato respetuoso.
-- Educación sobre accesibilidad y adaptaciones razonables.
-- Sensibilización para combatir prejuicios y estereotipos.
-- Orientación para fomentar la igualdad de oportunidades en el trabajo.
+| Persona | Rol | Dueño de… |
+|---|---|---|
+| Felipe Tapia | CEO & Product Manager | `docs/producto-mvp.md`, prioridades |
+| Sebastián Cervantes | CTO / Tecnología e IA | `supabase/`, `agent/` |
+| Margeory Rodriguez | Operaciones y servicios | Proceso del diagnóstico, `docs/normativa/` |
+| Camila Varea | Desarrollo comercial y experiencia del cliente | Entrevistas y pilotos |
+| Dayana Baldeon | Marketing & Brand | Marca, `docs/vision.md` |
 
-Creemos que una discapacidad no define el valor, el potencial ni las capacidades de una persona. Mediante la educación y la eliminación de barreras, buscamos que cada individuo pueda desarrollar sus habilidades y participar plenamente en la sociedad.
+## 🗺️ Hoja de ruta
 
-## 🧸 Productos Educativos Innovadores
-
-### Muñecos Educativos sobre Discapacidad
-
-Uno de nuestros proyectos consiste en desarrollar una colección de muñecos educativos que representen a personas con diferentes discapacidades.
-
-Cada muñeco tendrá su propio nombre, personalidad e historia ficticia, acompañados de una tarjeta educativa que explique:
-
-- En qué consiste la discapacidad representada.
-- Qué dificultades puede experimentar una persona en su vida cotidiana.
-- Qué prejuicios y conceptos erróneos existen sobre esa discapacidad.
-- Qué capacidades y posibilidades suelen pasar desapercibidas.
-- Cómo podemos promover el respeto, la accesibilidad y la inclusión.
-
-Estos muñecos estarán diseñados para ayudar a niños, familias, instituciones educativas y organizaciones a aprender sobre la discapacidad mediante la empatía, las historias y la interacción.
-
-### 🎮 Experiencia Interactiva de Cuidado
-
-También proponemos desarrollar una experiencia interactiva inspirada en los juegos de mascotas virtuales, como Tamagotchi.
-
-Los usuarios podrán interactuar con un personaje y aprender sobre sus preferencias, necesidades, entorno y requerimientos de accesibilidad.
-
-La experiencia buscará fomentar la empatía, el respeto y la comprensión de distintas realidades, evitando presentar la discapacidad como un juego trivial o reducir a las personas a sus limitaciones.
-
-**Nuestra visión:** transformar la educación inclusiva en una experiencia interactiva, accesible y significativa desde edades tempranas.
-
-## 🎯 Nuestra Misión
-
-Ayudar a las organizaciones a gestionar sus responsabilidades empresariales y promover la salud, el bienestar, la accesibilidad y la igualdad de oportunidades mediante servicios profesionales y soluciones educativas innovadoras.
-
-## 🔭 Nuestra Visión
-
-Convertirnos en una empresa referente en soluciones empresariales integrales e impacto social, contribuyendo a un mundo donde las organizaciones sean más responsables, los espacios laborales más seguros y las personas con discapacidad cuenten con mayores oportunidades para participar plenamente en la sociedad.
-
-## 💎 Nuestros Valores
-
-- **Inclusión:** todas las personas merecen respeto, dignidad y oportunidades.
-- **Responsabilidad:** promovemos prácticas empresariales responsables y decisiones informadas.
-- **Empatía:** fomentamos la comprensión mediante la educación y la interacción.
-- **Innovación:** desarrollamos soluciones creativas para problemas reales.
-- **Accesibilidad:** buscamos reducir las barreras que limitan la participación de las personas.
-- **Integridad:** actuamos con transparencia, profesionalismo y ética.
-- **Compromiso social:** trabajamos para generar un impacto positivo y sostenible.
-
-## 🤝 ¿A Quiénes Nos Dirigimos?
-
-Nuestros potenciales clientes y beneficiarios incluyen:
-
-- Empresas y pequeñas organizaciones.
-- Departamentos de Recursos Humanos.
-- Instituciones educativas.
-- Organizaciones de salud y seguridad ocupacional.
-- Equipos de trabajo y colaboradores.
-- Familias, niños y comunidades.
-- Instituciones comprometidas con la inclusión y la accesibilidad.
-
-## 🚀 Nuestro Modelo de Soluciones
-
-| Área | Objetivo principal |
-|---|---|
-| Soluciones empresariales | Apoyar la gestión del cumplimiento normativo y los beneficios para empleados. |
-| Salud y seguridad | Desarrollar capacitaciones y promover el bienestar laboral. |
-| Inclusión social | Fomentar la accesibilidad, la sensibilización y la igualdad de oportunidades. |
-| Productos educativos | Crear herramientas innovadoras para enseñar empatía e inclusión. |
-
-Estas áreas se complementan para ofrecer una propuesta integral que combina eficiencia empresarial, formación profesional y responsabilidad social.
-
-## 🌱 Nuestro Compromiso
-
-Creemos que el éxito empresarial y la responsabilidad social pueden crecer juntos.
-
-Por eso, buscamos ayudar a las organizaciones a mejorar sus procesos mientras contribuimos a construir una sociedad más consciente, accesible e inclusiva, que reconozca los derechos, las capacidades y el potencial de cada persona.
+- [x] Esquema núcleo de base de datos con seguridad por filas
+- [ ] Verificar las primeras 10–15 obligaciones con un profesional SST
+- [ ] Realizar 5–10 entrevistas a empresas y 1 diagnóstico piloto
+- [ ] Definir precio del diagnóstico
+- [ ] Primera versión del agente con revisión humana
+- [ ] Interfaz mínima para el cliente
 
 ---
 
 <div align="center">
 
-### Cumplimiento. Bienestar. Inclusión.
-
-**Construyendo mejores organizaciones y un futuro más inclusivo.**
+**Cumplimiento. Bienestar. Inclusión.**
 
 </div>
